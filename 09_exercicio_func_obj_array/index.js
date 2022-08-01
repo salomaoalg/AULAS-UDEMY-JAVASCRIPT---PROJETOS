@@ -4,9 +4,10 @@ function MeuEscopo() {
 
     const pessoas = []
 
-  
+   //IIFE
     function recebeEventoForm (evento){
-        evento.preventDefault();
+        evento.preventDefault(); // não atualiza o navegador envia form
+
         const nome = form.querySelector('.nome');
         const sobrenome = form.querySelector('.sobrenome');
         const peso = form.querySelector('.peso');
