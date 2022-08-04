@@ -1,8 +1,8 @@
 function MeuEscopo() {
     const form = document.querySelector('.form');
-    const resultado = document.querySelector('.resultado')
+    const resultado = document.querySelector('.resultado');
 
-    const pessoas = []
+    const pessoas = [];
 
    //IIFE
     function recebeEventoForm (evento){
@@ -14,19 +14,19 @@ function MeuEscopo() {
         const altura = form.querySelector('.altura');
 
         pessoas.push({
-            nome: nome.Value,
-            sobrenome: sobrenome.Value,
-            peso: peso.Value,
-            altura: altura.Value
+            nome: nome.value,
+            sobrenome: sobrenome.value,
+            peso: peso.value,
+            altura: altura.value
         });
 
         console.log(pessoas);
-        resultado.innerHTML += `<p>${nome.Value} ${sobrenome.Value} ${peso.Value} ${altura.Value}</p>`;
+        resultado.innerHTML += `<p>${nome.value} ${sobrenome.value} ${peso.value} ${altura.value}</p>`;
+        
     }
 
     form.addEventListener('submit', recebeEventoForm);
 }
-
 MeuEscopo();
 
 
