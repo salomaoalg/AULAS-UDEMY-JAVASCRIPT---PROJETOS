@@ -1,8 +1,7 @@
 function funcao(){
 
-    const hora = document.querySelector('.horario').value;
-    document.querySelector('.resultado').innerHTML = hora;
+    const horario = document.querySelector(".horario").value;
+    document.querySelector(".resultado").innerHTML = horario;
 }
-
 funcao();
 
