@@ -1,6 +1,6 @@
 //Comentar partes do código para testar separadamente!!!
 
-
+/*
 function soma(X, Y){
     if(typeof X !== 'number'|| typeof Y !== 'number'){
         throw new Error('X e Y precisam ser numeros');
@@ -16,7 +16,7 @@ catch(error){
     console.log(error); // Local/Variavél onde fica o erro exibido pelo JavaScript
     console.log('Houve um problema com o sofware, informar o setor de T.I');
 }
-
+*/
 
 // Estrutura com finnaly
 function retornaHora(data){
