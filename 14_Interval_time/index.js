@@ -12,7 +12,7 @@ const timer = setInterval(function(){
 
 setTimeout(function(){
     clearInterval(timer);
-}, 3000) // Determina uma quantidade de tempo que o código vai funcionar
+}, 300000) // Determina uma quantidade de tempo que o código vai funcionar
 
 setTimeout(function(){
     console.log("Hello My Friend!")
