@@ -6,12 +6,12 @@ console.log(soma(5,2)); // Forma correta de criar uma função
 function soma2(a, b){
     console.log(a + b); //Função sem retorno
 }
-
+*/
 document.addEventListener('click', function(){
     document.body.style.backgroundColor = 'red';
 }); // Função para mexer com os eventos
 
-*/
+
 
 function criapessoa(nome, sobrenome){
     return{nome, sobrenome};
