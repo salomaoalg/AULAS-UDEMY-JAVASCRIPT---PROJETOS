@@ -8,16 +8,23 @@
 </head>
 <body>
     <input type="text" placeholder="Informe um texto" id="valor">
-    
+    <input type="number" placeholder="Informe um numero" id="num1">
+    <input type="number" placeholder="Informe um numero" id="num2">
     <button onclick="funcao()">Clique Aqui!</button>
-    
+    <br>
+   
+
     <div id="resultado"></div>
+    <div id="soma"></div>
     
     <script>
         function funcao(){
             
             var valor = document.querySelector('#valor').value;
-            
+            var num1 = parseInt(document.querySelector('#num1').value);
+            var num2 = parseInt(document.querySelector('#num2').value);
+            var soma = num1 + num2;
+            document.querySelector('#soma').innerHTML = soma
             document.querySelector('#resultado').innerHTML = valor
         }
     </script>
