@@ -12,3 +12,7 @@ pessoa1.getDataNascimento = function(){
 };
 
 console.log(pessoa1.getDataNascimento());
+//-------------------------------------------------------
+for (let chave in pessoa1){
+    console.log(pessoa1[chave])
+}
